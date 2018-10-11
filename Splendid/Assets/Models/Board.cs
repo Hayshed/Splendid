@@ -13,7 +13,7 @@ public class Board {
     //Constructor
     public Board() {
 
-        GemPile bankGold = new GemPile("Gold", 7);
+        bankGold = new GemPile("Gold", 7);
 
         //GemPile[] bank = new GemPile[6];
         //bank[0].GemType = "Emerald";
@@ -23,14 +23,16 @@ public class Board {
         //bank[4].GemType = "Onyx";
         //bank[5].GemType = "Gold";
 
-        GemPile handGold = new GemPile("Gold", 0);
+        handGold = new GemPile("Gold", 0);
 
     }
 
-     public void TakeGems(int num, GemPile from, GemPile to) {
+     public void TakeGems(int num) {
 
-        from.NumOfGems = from.NumOfGems - num;
-        to.NumOfGems = to.NumOfGems + num;
+        bankGold.NumOfGems = bankGold.NumOfGems - num;
+        handGold.NumOfGems = handGold.NumOfGems + num;
+        Debug.Log(" bank Gold: " + bankGold.NumOfGems + " hand Gold: " + handGold.NumOfGems);
+
 
     }
 
