@@ -41,6 +41,8 @@ public class Board {
         Debug.Log(" bank Gold: " + bankGold.NumOfGems + " hand Gold: " + tempGold.NumOfGems);
         //TODO: Connect model of Gempiles to display so we can see the number of gems go up and down
 
+        //GameObject.Find("buttonName").GetComponentInChildren<Text>().text = "la di da";
+
 
     }
 
