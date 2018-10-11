@@ -18,8 +18,13 @@ public class BoardController : MonoBehaviour {
 		
 	}
 
+
+    //Button to take gems
+    // This is the function that a game object button connects to when you click on a gem pile
     public void takeGemButton() {
         board.TakeGems(1);
+        
+                    
         
     }
 

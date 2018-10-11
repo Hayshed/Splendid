@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Board {
 
-    //
+    //TODO: Add different types of piles, not just two gold piles
+    // Use arrays/lists of GemPiles? 1 each for bank, purchase, refund, and each hand
+
     GemPile bankGold;
-    GemPile handGold;
+    GemPile tempGold;
 
 
 
@@ -23,15 +25,21 @@ public class Board {
         //bank[4].GemType = "Onyx";
         //bank[5].GemType = "Gold";
 
-        handGold = new GemPile("Gold", 0);
+        tempGold = new GemPile("Gold", 0);
 
     }
+
+    // Lowers the Gem count of one gempile and adds to another
+    // TODO:    Make usable for more than one case
+    // Want to be able to pass in the type of gem (Which will be hardcoded to each button).
+    // For now we will assume that this is just for taking a gem from the bank and putting it into the temp/purchase piles
 
      public void TakeGems(int num) {
 
         bankGold.NumOfGems = bankGold.NumOfGems - num;
-        handGold.NumOfGems = handGold.NumOfGems + num;
-        Debug.Log(" bank Gold: " + bankGold.NumOfGems + " hand Gold: " + handGold.NumOfGems);
+        tempGold.NumOfGems = tempGold.NumOfGems + num;
+        Debug.Log(" bank Gold: " + bankGold.NumOfGems + " hand Gold: " + tempGold.NumOfGems);
+        //TODO: Connect model of Gempiles to display so we can see the number of gems go up and down
 
 
     }
