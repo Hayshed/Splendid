@@ -6,6 +6,7 @@ public class GemPile {
 
     string gemType;
     int numOfGems;
+    public Text NumText;
 
     public GemPile(string gemType, int numOfGems) {
 
@@ -21,6 +22,7 @@ public class GemPile {
 
         set {
             numOfGems = value;
+            this.NumText.text = numOfGems.ToString();
         }
     }
 }

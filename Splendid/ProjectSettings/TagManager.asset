@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Text
+    uniqueID: 2327684035
+    locked: 0
+  - name: Gems
+    uniqueID: 3366258615
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
