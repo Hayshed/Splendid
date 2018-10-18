@@ -7,8 +7,8 @@ public class Board {
     //TODO: Add different types of piles, not just two gold piles
     // Use arrays/lists of GemPiles? 1 each for bank, purchase, refund, and each hand
 
-    GemPile bankGold;
-    GemPile tempGold;
+    public GemPile bankGold;
+    public GemPile tempGold;
 
 
 
@@ -42,7 +42,8 @@ public class Board {
         //TODO: Connect model of Gempiles to display so we can see the number of gems go up and down
 
         //GameObject.Find("buttonName").GetComponentInChildren<Text>().text = "la di da";
-
+        //GameObject.Find("Bank_Panel").GetComponentInChildren<Text>().text = "la di da";
+        //Bank_Panel.
 
     }
 

@@ -3,7 +3,13 @@ guid: 8b44c603e4c33934480032e2b836df84
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Diamond_Sprite: {instanceID: 0}
+  - Emerald_Sprite: {instanceID: 0}
+  - Gold_Sprite: {instanceID: 0}
+  - Onyx_Sprite: {instanceID: 0}
+  - Ruby_Sprite: {fileID: 21300000, guid: 9e45f57fd37e40a4a88145b3e537c5c7, type: 3}
+  - Sapphire_Sprite: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
