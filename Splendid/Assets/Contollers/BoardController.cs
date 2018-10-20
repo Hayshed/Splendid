@@ -9,9 +9,12 @@ public class BoardController : MonoBehaviour {
 
 	// Use this for initialization
 
+<<<<<<< HEAD
 	void OnEnable () {
 
 
+=======
+>>>>>>> parent of d60bd3b... Text display updates with correct number of gems
         board = new Board();
 
 	}
