@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-/// <summary>
-/// Sets up Visual Layout of game and links these visuals to the model
-/// </summary>
+    /// <summary>
+    /// Sets up Visual Layout of game and links these visuals to the model
+    /// </summary>
 public class SpriteController : MonoBehaviour {
 
     public Sprite Diamond_Sprite;
@@ -20,29 +19,18 @@ public class SpriteController : MonoBehaviour {
     GameObject gemSlot;
 
     int maxNumOfGems = 7;
-
-    Text text;
+   
 
     Dictionary<GemPile, GameObject> gemPile_to_GameObjectMap;
-
-    Text displayBank;
-    Text displayPurchase;
 
     // Use this for initialization
     void Start () {
 
 
-        displayBank = GameObject.Find("Canvas/Bank_Panel/GoldPile/Text").GetComponent<Text>();
-        displayPurchase = GameObject.Find("Canvas/Purchase_Panel/GoldPile/Text").GetComponent<Text>();
-
-        displayBank.text = "2";
-        displayPurchase.text = "4";
-
-
         //FIXME: testing ablity to change sprites in Canvas
-        //Sprite sr = GameObject.Find("Canvas/Bank_Panel/GoldPile/Image").GetComponent<Sprite>();
+
+        //Sprite sr = GameObject.Find("Canvas/Bank_Panel/GoldPile/GoldPileImage_0").GetComponent<Sprite>();
         //sr = Ruby_Sprite;
-        //Debug.Log("Try to change sprite -- test");
 
 
 
@@ -100,15 +88,6 @@ public class SpriteController : MonoBehaviour {
 
 
     }
-
-    void Update() {
-
-        //BoardController.Instance
-
-        displayBank.text = BoardController.Instance.board.bankGold.NumOfGems.ToString();
-        displayPurchase.text = BoardController.Instance.board.tempGold.NumOfGems.ToString(); 
-
-    }
-
-
+	
+	
 }
