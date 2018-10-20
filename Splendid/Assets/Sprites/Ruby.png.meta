@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Splendid/Assets/Sprites/Ruby.png.meta
 guid: 284e4d79bc93602499aedda440fa7e11
+=======
+guid: 9e45f57fd37e40a4a88145b3e537c5c7
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Ruby.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:Splendid/Assets/Sprites/Ruby.png.meta
     spriteID: cbe8432d7204acb418eaaad6a84092df
+=======
+    spriteID: c7022784ace2bb34d8db4f79451a6cff
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Ruby.png.meta
     vertices: []
     indices: 
     edges: []

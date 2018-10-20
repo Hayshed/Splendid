@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Splendid/Assets/Sprites/Onyx.png.meta
 guid: eccf0d6b1e0b4654f98c6dea261c8207
+=======
+guid: 65bfae52b381e1449b77a50dc3f1f24c
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Onyx.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:Splendid/Assets/Sprites/Onyx.png.meta
     spriteID: 2035fc5efbb62ed4b9bbca213d077eda
+=======
+    spriteID: d78f76709ecf6864a9ac95b87dce7a32
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Onyx.png.meta
     vertices: []
     indices: 
     edges: []

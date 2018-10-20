@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Splendid/Assets/Sprites/Diamond.png.meta
 guid: 25164a06b0ca24f4fbbd6df9bd973745
+=======
+guid: 5f90307ca37ea6946a79949dd8d486a0
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Diamond.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:Splendid/Assets/Sprites/Diamond.png.meta
     spriteID: 45a67676b5d7d6f448af2eeb6a5ef269
+=======
+    spriteID: c73a105920e92eb4aa5858bb697aaf80
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Diamond.png.meta
     vertices: []
     indices: 
     edges: []

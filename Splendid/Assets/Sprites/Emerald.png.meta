@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Splendid/Assets/Sprites/Emerald.png.meta
 guid: f8109dd5435c14e4bbb9eb6360f92fcb
+=======
+guid: 389d7e05645db974caec773924ecc8eb
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Emerald.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -75,7 +79,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD:Splendid/Assets/Sprites/Emerald.png.meta
     spriteID: 1b29367f4264a414fb980444ad283c7b
+=======
+    spriteID: 86e3a0e820d48b7498c2916f6619a04c
+>>>>>>> d60bd3b34b88a9b0ab369bf30103b3f0c76c428a:Splendid/Assets/Sprites/Emerald.png.meta
     vertices: []
     indices: 
     edges: []
