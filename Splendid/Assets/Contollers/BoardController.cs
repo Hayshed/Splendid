@@ -8,7 +8,9 @@ public class BoardController : MonoBehaviour {
     public Board board;
 
 	// Use this for initialization
-	void Start () {
+
+	void OnEnable () {
+
 
         board = new Board();
 

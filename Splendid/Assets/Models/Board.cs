@@ -9,11 +9,13 @@ public class Board {
     // Use arrays/lists of GemPiles? 1 each for bank, purchase, refund, and each hand
 
 
+
     public Text bankGoldText;
     public Text tempGoldText;
 
     public GemPile bankGold;
     public GemPile tempGold;
+
 
 
 
@@ -61,6 +63,7 @@ public class Board {
         //TODO: Connect model of Gempiles to display so we can see the number of gems go up and down
 
         //GameObject.Find("buttonName").GetComponentInChildren<Text>().text = "la di da";
+
 
 
     }
