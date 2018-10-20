@@ -106,6 +106,7 @@ public class SpriteController : MonoBehaviour {
         //BoardController.Instance
 
         displayBank.text = BoardController.Instance.board.bankGold.NumOfGems.ToString();
+        displayBank = GameObject.Find("Canvas/Bank_Panel/GoldPile/Text").GetComponent<Text>();
         displayPurchase.text = BoardController.Instance.board.tempGold.NumOfGems.ToString(); 
 
     }
