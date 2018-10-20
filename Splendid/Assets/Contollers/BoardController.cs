@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BoardController : MonoBehaviour {
 
     public Board board;
 
 	// Use this for initialization
-	void OnEnable () {
+	void Start () {
 
         board = new Board();
+
 	}
 	
 	// Update is called once per frame

@@ -35,8 +35,9 @@ public class Board {
     //          Started this process. Need to update TakeGems method to take different gem piles as params.
     // Want to be able to pass in the type of gem (Which will be hardcoded to each button).
     // For now we will assume that this is just for taking a gem from the bank and putting it into the temp/purchase piles
+    //Unity UI requires Text type vars for updating the values in the view
     public void GetNumText(GemPile g, Text t){
-        t = g.NumText;
+        t = g.numText;
     }
     public void DecreaseGems(GemPile g, int num){
         g.NumOfGems = g.NumOfGems - num;
@@ -44,10 +45,11 @@ public class Board {
     public void IncreaseGems(GemPile g, int num){
         g.NumOfGems = g.NumOfGems - num;
     }
+
     public void TakeGems(int num) {
         DecreaseGems(bankGold, num);
         GetNumText(bankGold, bankGoldText);
-        IncreaseGems(tempGold, num)
+        IncreaseGems(tempGold, num);
         GetNumText(tempGold, tempGoldText);
         Debug.Log(" bank Gold: " + bankGold.NumOfGems + " hand Gold: " + tempGold.NumOfGems);
         //TODO: Connect model of Gempiles to display so we can see the number of gems go up and down
